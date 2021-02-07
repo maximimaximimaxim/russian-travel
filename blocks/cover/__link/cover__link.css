@@ -1,0 +1,9 @@
+.cover__link {
+  display: block;
+  max-width: 1184px;
+  min-height: 740px;
+  text-decoration: none;
+  color: white;
+  position: relative;
+
+}

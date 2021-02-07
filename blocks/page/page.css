@@ -1,0 +1,13 @@
+.page {
+  max-width: 1280px;
+  /* выше установили ограничение по максимальной ширине */
+  margin: 0 auto;
+  /* выше для экранов больше 1280px отцентрировали весь контент */
+  padding-top: 28px;
+}
+
+@media screen and (max-width: 320px) {
+	.page__header {
+    margin-bottom: 16px;
+  }
+}
