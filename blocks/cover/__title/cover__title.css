@@ -7,3 +7,32 @@
   max-width: 560px;
   text-align: center;
 }
+
+@media screen and (max-width: 1024px) {
+  .cover__title {
+    padding-top: 195px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__title {
+    padding-top: 115px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cover__title {
+    padding-top: 75px;
+    font-size: 62px;
+    line-height: 65px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__title {
+    padding-top: 33px;
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 16px;
+  }
+}

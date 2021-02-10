@@ -2,7 +2,36 @@
   margin: 0 auto 32px;
   max-width: 720px;
   text-align: center;
-  font-size: 96px;
+  font-size: 96px; 
   line-height: 100px;
   font-weight: 900;
+}
+
+@media screen and (max-width: 714px) {
+  .lead__title {
+    font-size: 76px;
+    line-height: 80px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .lead__title {
+    font-size: 56px;
+    line-height: 60px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .lead__title {
+    font-size: 46px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__title {
+    margin-bottom: 16px;
+    font-size: 40px;
+    line-height: 44px;
+  }
 }

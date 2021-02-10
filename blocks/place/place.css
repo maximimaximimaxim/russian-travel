@@ -3,3 +3,22 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 48px 40px;
 }
+
+@media screen and (max-width: 1024px) {
+  .place {
+    grid-gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    grid-gap: 48px 28px;
+  }
+}
+
+@media screen and (max-width: 625px) {
+  .place {
+    grid-template-columns: 1fr;
+    grid-gap: 48px;
+  }
+}
