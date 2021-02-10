@@ -4,17 +4,3 @@
   font-size: 14px;
   line-height: 16px;
 }
-
-@media screen and (max-width: 672px) {
-  .footer__copyright {
-    font-size: 14px;
-    line-height: 14px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .footer__copyright {
-    font-size: 14px;
-    line-height: 14px;
-  }
-}

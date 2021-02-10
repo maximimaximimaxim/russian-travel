@@ -4,13 +4,13 @@
   grid-gap: 48px 40px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1100px) {
   .place {
     grid-gap: 48px 32px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 788px) {
   .place {
     grid-gap: 48px 28px;
   }
@@ -20,5 +20,11 @@
   .place {
     grid-template-columns: 1fr;
     grid-gap: 48px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    grid-gap: 32px;
   }
 }

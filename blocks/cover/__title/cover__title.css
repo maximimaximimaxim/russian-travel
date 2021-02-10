@@ -20,11 +20,27 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 530px) {
   .cover__title {
-    padding-top: 75px;
+    padding-top: 55px;
     font-size: 62px;
     line-height: 65px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .cover__title {
+    padding-top: 55px;
+    font-size: 50px;
+    line-height: 53px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .cover__title {
+    padding-top: 35px;
+    font-size: 42px;
+    line-height: 45px;
   }
 }
 
